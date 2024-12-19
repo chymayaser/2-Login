@@ -1,0 +1,123 @@
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root
+{
+    --black:#000;
+    --gray:gray;
+    --white:#fff;
+}
+
+
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.logo a
+{
+    color: var(--black);
+}
+
+nav
+{
+    padding: 30px 30px;
+}
+
+.sign
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sign-up
+{
+    border: 1px solid var(--gray);
+    padding: 20px 45px;
+    border-radius: 10px;
+}
+
+.sign-up h3
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sign-up h1
+{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom:5px ;
+}
+
+.sign-up p
+{
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.form input 
+{
+    padding: 20px 15px;
+    padding-right: 200px;
+    border-radius: 6px;
+    border: 1px solid var(--gray);
+
+}
+
+.form label
+{
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.form ::placeholder
+{
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
+
+.btn
+{
+    padding: 20px 15px;
+    border-radius: 6px;
+    border: 1px solid var(--black);
+    text-align: center;
+    background-color: var(--black);
+    cursor: pointer;
+}
+
+.btn a
+{
+    color: var(--white);
+}
+
+.have p
+{
+    text-align: center;
+    color: var(--gray);
+}
+
+.have span a
+{
+    color: var(--black);
+    font-weight: 600;
+}
